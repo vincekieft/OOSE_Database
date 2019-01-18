@@ -23,3 +23,7 @@ services:
      - /sessions
 volumes:
   data-volume:
+networks:
+  default:
+    external:
+      name: OOSE_Network
